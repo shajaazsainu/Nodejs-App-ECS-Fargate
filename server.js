@@ -54,7 +54,7 @@ const Mutation = new GraphQLObjectType({
                     firstName: args.firstName,
                     lastName: args.lastName,
                     email: args.email,
-                    password: args.password
+                    password: args.password 
                 })
                 return args
             }
